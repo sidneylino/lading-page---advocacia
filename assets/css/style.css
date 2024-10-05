@@ -1,0 +1,64 @@
+.bg-nav-scrolled {
+    background-color: rgb(86, 37, 8);
+    transition: background-color 0.5s ease;
+}
+
+
+@media (max-width: 1200px) {
+    .section-four {
+        width: 100%;
+    }
+    #section-one {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/bg\ direito.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-four {
+        width: 75%;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1719px){
+
+    #section-one {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/bg\ direito.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1720px) { 
+
+    #section-one {
+        height: 700px;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/bg\ direito.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+}
+
+.section-two {
+    margin-top: -5%;
+}
+
+.bg-brown {
+    background-image: linear-gradient(to bottom, rgb(78, 37, 17), rgb(112, 66, 23));
+}
+
+#section-four {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/backgrounds/bg\ direito.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
